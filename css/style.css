@@ -36,6 +36,7 @@ div{
     font-size: 100px;
     padding: 20px;
     border: solid white 3px;
+    min-height: 100px;
     
 }
 
@@ -88,20 +89,27 @@ div{
 }
 
 footer{
-    font-size: 20px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
 
     background: #000000;
     background: linear-gradient(90deg, #000000 0%,  #0000ff 25%,  #0066ff 70%, #000000 100%);
+}
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 10px 10px 0px;
+    /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+    */
 }
 
 
 span{
     text-decoration: underline;
     text-transform: uppercase;
-    text-shadow: 0 0;
+    text-shadow: none;
 
 }
