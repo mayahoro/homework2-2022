@@ -39,7 +39,6 @@ div{
     border: solid white 3px;
     min-height: 100px;
     box-sizing: border-box;
-    
 }
 
 
@@ -82,7 +81,7 @@ div{
 
 .green{
     margin-right: 50px;
-    border-width: 0px 0px 3px 10px;
+    border-width: 0px 10px 3px 0px;
     background-color:#008500;
     text-align: left;
 
