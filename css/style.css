@@ -1,110 +1,50 @@
-body{
-    font-family: Verdana, 'Times New Roman';
-    background-color: #000000;
-    color: #FFFFFF;
-    margin:25px;
 
+nav li{
+    padding: 12px;
 }
 
-
-
-
-h1{
-    font-size: 48px;
-    text-align: center;
-    padding: 15px;
+.active{
+    background-color: #87CEFA;
+    font-weight: bold;
+    border: 5px solid #D3D3D3; 
 }
 
-h2{
-    font-size: 32px;
-    text-shadow: 2px 4px #808080;
+.page{
+    background-color: #FFB6C1;
+    font-family:cursive;
+    display: block;
 }
 
 img{
-    display: block;
-    border: 10px dashed #FFFFFF;
-    width: 350px;
-    margin: 0 auto;
+    border: solid #87CEFA 5px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 10px;
 }
 
-p{
+header{
+    background-color: #87CEFA;
+}
+
+
+h1{
     font-size: 24px;
-    padding-left: 15px;
-    padding-bottom: 15px;
-}
-
-div{
-    font-size: 100px;
-    padding: 20px;
-    border: solid white 3px;
-    min-height: 100px;
-    box-sizing: border-box;
+    margin: 12px 0;
 }
 
 
-.intro{
-    border-radius: 15px;
-    margin-top: 15px;
-
-}
-
-.red{
-    margin-left: 50px;
-    text-align: right;
-    border-width: 0px 0px 3px 10px;
-    background-color: #FF0000;
- 
+img:hover:nth-child(2n){
     
+    filter:sepia();
+    border: solid; 
+ } 
 
-}
+ footer{
+     background-color: #87CEFA;
+     padding: 32px 8px;
+ }
 
-.blue{
-    background-color: #0000FF ;
-    text-align: left;
-    margin-right: 50px;
-    border-width: 0px 10px 3px 0px;
-
-}
-
-.yellow{
-    background-color: #FFFF00 ;
-    text-align: right;
-    margin-left: 50px;
-    border-width: 0px 0px 3px 10px;
-    color: #000000
-
-}
-.yellow h2 { 
-    text-shadow: 2px 4px #c7e2c7; 
-    color: #000000;
-}
-
-.green{
-    margin-right: 50px;
-    border-width: 0px 10px 3px 0px;
-    background-color:#008500;
-    text-align: left;
-
-
-}
-
-footer{
-
-    background: #000000;
-    background: linear-gradient(90deg, #000000 0%,  #0000ff 25%,  #0066ff 70%, #000000 100%);
-}
-
-footer p{
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 10px 10px 0px;
-
-}
-
-
-span {
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-shadow: none;
-
-}
+ a.skip {
+    font-family: cursive;
+    text-decoration: none;
+ }
